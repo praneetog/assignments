@@ -19,7 +19,7 @@ export const Assignment3 = () => {
             total += items[i].value;
         }
         return total;
-    }, [items]);
+    }, [items]); 
     
     // Your code ends here
     return (
